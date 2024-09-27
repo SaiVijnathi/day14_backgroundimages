@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+}
+
+.picDesc{
+    display: inline-block;
+    overflow: auto;
+    width: 830px;
+    height: 260px;
+    text-align: justify;
+    padding: 8px 10px 9px 15px;
+    color: black;
+    margin: 20px 0 30px 0;
+    border-radius: 28px;
+    background-image: url(./Images/back1.jpeg);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.picDesc::first-letter{
+    color: rgb(177, 7, 7);
+    font-weight: bold;
+    font-size: x-large;
+}
+
+body{
+    background-image: url(./Images/back3.jpg);
+    background-position: 50% 35%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;  
+    background-origin: border-box; 
+    background-clip: border-box;
+    text-align: center;
+    margin:0;
+    padding-bottom: 50px;
+}
+
+
+.image{
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+    box-shadow: 15px 15px 15px black;
+    margin-right : 50px;
+}
+
+a{
+    color: rgb(255, 94, 0);
+    font-size: 1.4rem;
+    background-color: rgb(241, 210, 150);
+    margin: 0 40px 0 15px;
+    border-radius: 30px;
+}
+
+nav{
+    margin-bottom: 20px;
+}
+
+a:hover {
+    color: maroon;
+    background-color: rgb(238, 170, 170);
+  }
+
+a:visited{
+    color:rgb(19, 8, 51);
+}
+
+h2{
+    margin: auto;
+    font-size: 2rem;
+    color: orangered;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(252, 209, 193);
+    width: fit-content;
+    border-radius: 30px;
+}
+
+h1{
+    color: rgb(165, 52, 11);
+    font-size: 3.2rem;
+    margin-bottom: 15px;
+}
